@@ -1,8 +1,9 @@
 # chrome_extension_password_manager
-chrome extension for managing passwords
+chrome extension for managing passwords(HTML/CSS, Javascript, Nodejs, MySql)
 
 "npm run dev" to run the server.js using nodemon \
-"npm start" to run the server.js
+"npm start" to run the server.js\
+create_table.sql creates the database tables.
 
 If the user's account is stored in the database, the fields will automatically be filled with user's username and password, user can add a new account for the website by clicking on the extension icon and typing the information.
 
