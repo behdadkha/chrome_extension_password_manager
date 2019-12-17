@@ -1,0 +1,20 @@
+{
+	"name": "password_manager",
+	"version": "1.0",
+	"manifest_version": 2,
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content.js"]
+		}
+	],
+	
+	"browser_action":{
+		"default_popup": "pop.html",
+		"default_title": "password_manager"
+	},
+	"permissions":["http://localhost:5000/*", "tabs", "storage", "activeTab"]
+}
